@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #f6b319;
+  
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -11,7 +11,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #61122f;
+  background-color: blue;
   border-radius: 0;
   border: 0;
 }
@@ -64,7 +64,26 @@ body {
   font-size: 1.8em;
 }
 
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #61122f;
+  text-align: right;
+  padding-right: 15px;
+}
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
 /* END HEADER */
 
 /* FOOTER */
